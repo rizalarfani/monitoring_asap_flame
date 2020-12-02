@@ -1,0 +1,16 @@
+Langkah selanjut nya membuat file codingan
+
+include library yang dibutuhkan,seperti FirebaseArduin,
+ESP8266Wifi,dan Mq2 untuk sensor nya.
+
+Selanjutnya deklarasi variable yng dibutuhkan,
+seperti firebaseHost,firebaseAuth,wifi_ssid,wifi password.
+
+jangan lupa juga untuk deklarasi pin wemos nya.
+
+selanjutnya membuat fungsi untuk Koneksi Ke Wifi.
+
+pada void setup masukan kodingan seperti berikut
+
+di void loop ini kita memasukan kodingan untuk 
+membaca sensor dan push ke firabase database
